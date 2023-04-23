@@ -20,9 +20,4 @@ resource "google_compute_instance" "vm9asogrupo1" {
     }
   }
 }
-resource "google_artifact_registry_repository" "repo-grupo1" {
-  location = var.region
-  repository_id = "lab-devops-cloud-grupo1"
-  description = "Imagens Docker"
-  format = "DOCKER"
-}
+
